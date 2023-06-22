@@ -16,6 +16,7 @@ for i in range(2, num+1):
         break
 print("This number is divisible by",i)
 
+
 words="i am not india"
 char=0
 while True:
