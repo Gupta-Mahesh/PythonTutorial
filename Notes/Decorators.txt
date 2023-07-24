@@ -1,0 +1,8 @@
+
+Decorators
+A decorator is a design pattern tool in Python for wrapping code around functions or classes (defined blocks). This design pattern allows a programmer to add new functionality to existing functions or classes without modifying the existing structure. The section provides an overview of what decorators are, how to decorate functions and classes, and what problem can it solve.
+
+
+Understanding Decorators
+A decorator is a function that takes another function as an argument, does some actions, and then returns the argument based on the actions performed. Since functions are first-class object in Python, they can be passed as arguments to another functions.
+Hence we can say that a decorator is a callable that accepts and returns a callable.

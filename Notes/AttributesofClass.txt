@@ -1,0 +1,7 @@
+
+Attributes of a class can also be accessed using the following built-in methods and functions :
+
+getattr() – This function is used to access the attribute of object.
+hasattr() – This function is used to check if an attribute exist or not.
+setattr() – This function is used to set an attribute. If the attribute does not exist, then it would be created.
+delattr() – This function is used to delete an attribute. If you are accessing the attribute after deleting it raises error “class has no attribute”.
