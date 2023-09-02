@@ -7,7 +7,7 @@ fd =open("Reading Json\product_details.json","r")
 js= fd.read()
 fd.close()
 
-#converting the json data into string
+#converting the string json data into dict
 produtcs_details =json.loads(js)
 
 print("**********Multi dictonary**********",end="\n")
