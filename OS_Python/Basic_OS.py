@@ -45,3 +45,6 @@ print("List of dir: ",os.listdir())
 import os
 print(os.path.exists("test"))
 print(os.listdir())
+
+print(os.read())
+
